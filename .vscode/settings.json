@@ -1,0 +1,29 @@
+{
+    "python.languageServer": "Pylance",
+    "python.analysis.typeCheckingMode": "basic",
+    "python.analysis.diagnosticMode": "workspace",
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.tabSize": 4,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports.ruff": "explicit",
+        "source.addMissingImports": "explicit",
+        "source.formatDocument.ruff": "explicit",
+        "source.fixAll.ruff": "explicit"
+    },
+    "ruff.importStrategy": "fromEnvironment",
+    "ruff.lint.select": ["ALL"],
+    "ruff.lineLength": 100,
+    "ruff.lint.ignore": ["S105", "D100", "T201", "TRY003", "EM101"],
+    "ruff.exclude": ["**/tests/**"],
+    "python.testing.pytestArgs": [
+        "tests"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "cSpell.words": [
+        "matplotlib",
+        "pyenv",
+        "seaborn"
+    ]
+}
