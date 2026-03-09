@@ -20,15 +20,15 @@ The application of machine learning methods has in recent years become ubiquitou
 
 ## Machine learning map
 
-The map helps us understand the different types of machine learning and their applications.
-
-![ML Map](./images/img01.jpg)
-
-Source: [Machine Learning for Everyone](https://vas3k.com/blog/machine_learning/)
-
 Main Types of Machine Learning:
 
 ![ML Types](./images/img02.jpg)
+
+Source: [Machine Learning for Everyone](https://vas3k.com/blog/machine_learning/)
+
+The map helps us understand the different types of machine learning and their applications.
+
+![ML Map](./images/img01.jpg)
 
 Source: [Machine Learning for Everyone](https://vas3k.com/blog/machine_learning/)
 
