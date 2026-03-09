@@ -71,6 +71,3 @@ At this point, we can invent a completely new Airbnb listing, for example a two-
 
 The output is the predicted price $y$. This is the moment where all the earlier work comes together: data gathering, cleaning, feature engineering, training, and evaluation.
 
-## Workshop Goal
-
-The practical objective of this part is simple: build a model, measure how wrong it is, compare a few modeling choices, and then make a real prediction for a new listing.

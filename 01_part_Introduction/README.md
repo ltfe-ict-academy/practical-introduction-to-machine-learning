@@ -1,8 +1,10 @@
 # Part 1: Introduction to Machine Learning
 
-## What is Machine Learning?
+## Problem statement
 
-- "How does Airbnb know what price to suggest for a new listing?"
+We want to set a price for an Airbnb listing in Vienna based on its features, such as location, type of accommodation, number of bedrooms, and amenities.
+
+## What is Machine Learning?
 
 Machine learning is about extracting knowledge from data.
 
@@ -24,6 +26,17 @@ The map helps us understand the different types of machine learning and their ap
 
 Source: [Machine Learning for Everyone](https://vas3k.com/blog/machine_learning/)
 
+Main Types of Machine Learning:
+
+![ML Types](./images/img02.jpg)
+
+Source: [Machine Learning for Everyone](https://vas3k.com/blog/machine_learning/)
+
+Classical Machine Learning:
+
+![Classical ML](./images/img03.jpg)
+
+Source: [Machine Learning for Everyone](https://vas3k.com/blog/machine_learning/)
 
 ## Workflow of a machine learning project
 
@@ -75,6 +88,21 @@ Source: [Machine Learning for Everyone](https://vas3k.com/blog/machine_learning/
     - This is the moment where you can use completely new data to test your model's accuracy.
 
 
-## Workshop task
+## scikit-learn
 
+- `scikit-learn` is an open source project, meaning that it is free to use and distribute, and anyone can easily obtain the source code to see what is going on behind the scenes.
+- The scikit-learn project is constantly being developed and improved, and it has a very active user community.
+- It contains a number of state-of-the-art machine learning algorithms, as well as comprehensive documentation about each algorithm.
+- scikit-learn is a very popular tool, and the most prominent Python library for machine learning.
+- It is widely used in industry and academia, and a wealth of tutorials and code snippets are available online. 
+- scikit-learn works well with a number of other scientific Python tools.
+- scikit-learn is built on top of the NumPy and SciPy scientific Python libraries.
+
+Webpage: https://scikit-learn.org/stable/
+
+API reference: https://scikit-learn.org/stable/modules/classes.html
+
+Examples: https://scikit-learn.org/stable/auto_examples/index.html
+
+Scikit-learn makes it straightforward to build models and evaluate them for use. It is primarily focused on using numeric data and contains several ready-made datasets for use as learning tools. It also includes pre-built models for students to try.
 
