@@ -30,9 +30,3 @@ As we refine our data, we need to clearly define what we are inputting and what 
 How do you know which variables to choose when building a model? Throwing every single column at the algorithm is usually a bad idea. We go through a deliberate process to choose the right variables for the most performant model:
 - **Feature Selection:** This returns a targeted subset of the features. We actively decide which columns we actually need and drop the rest. For instance, the "Host's First Name" or the "Image URL" will not help us predict the price of an apartment, so we delete those columns entirely to reduce noise.
 - **Feature Extraction:** This creates *new* features from functions of the original features. For example, if our dataset has a "Host Joined Date" column, the raw date isn't very helpful. But we could extract a new, highly useful numerical feature from it: "Years as Host."
-
-## Splitting Your Dataset
-
-Finally, prior to training, you must split your pristine dataset into two parts of unequal size.
-- **Training Set (Usually 80%):** This part of the dataset is fit to your model to train it. It constitutes the majority of the data and acts as the "textbook" the algorithm studies to learn the patterns between the features and the target.
-- **Testing Set (Usually 20%):** This is an independent, unseen group of data. We hide this from the model during the training phase. Once the model thinks it has learned the rules, we use this test set to give it a "final exam" to confirm its true performance. If we tested the model on the exact same data it trained on, it would be like giving a student the answer key before the test!

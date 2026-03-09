@@ -32,9 +32,12 @@
     "python.testing.unittestEnabled": false,
     "python.testing.pytestEnabled": true,
     "cSpell.words": [
+        "hyperparameters",
         "Kaggle",
         "matplotlib",
+        "overfitting",
         "pyenv",
-        "seaborn"
+        "seaborn",
+        "Underfitting"
     ]
 }
