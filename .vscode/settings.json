@@ -14,14 +14,25 @@
     "ruff.importStrategy": "fromEnvironment",
     "ruff.lint.select": ["ALL"],
     "ruff.lineLength": 100,
-    "ruff.lint.ignore": ["S105", "D100", "T201", "TRY003", "EM101"],
+    "ruff.lint.ignore": ["S105", "D100", "T201", "TRY003", "EM101", "E501"],
     "ruff.exclude": ["**/tests/**"],
     "python.testing.pytestArgs": [
         "tests"
     ],
+    "[jupyter]": {
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.formatOnSave": true
+    },
+    "notebook.formatOnSave.enabled": true,
+    "notebook.codeActionsOnSave": {
+        "source.organizeImports.ruff": "explicit",
+        "source.fixAll.ruff": "explicit",
+        "source.formatDocument.ruff": "explicit"
+    },
     "python.testing.unittestEnabled": false,
     "python.testing.pytestEnabled": true,
     "cSpell.words": [
+        "Kaggle",
         "matplotlib",
         "pyenv",
         "seaborn"
