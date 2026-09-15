@@ -6,7 +6,9 @@ We want to set a price for an Airbnb listing in Vienna based on its features, su
 
 ## What is Machine Learning?
 
-Machine learning is about extracting knowledge from data.
+> Machine learning is about extracting knowledge from data.
+
+Machine learning finds patterns in examples and uses them to make predictions or decisions in new situations. A useful prediction requires a clear question, relevant examples, and a fair assessment on unfamiliar data.
 
 It is a research field at the intersection of statistics, artificial intelligence, and computer science and is also known as predictive analytics or statistical learning.
 
@@ -17,6 +19,15 @@ The application of machine learning methods has in recent years become ubiquitou
 - recognizing your friends in your photo
 - many modern websites and devices have machine learning algorithms at their core.
 
+## Where machine learning fits
+
+Artificial intelligence is the broad field, which includes rule-based approaches as well as machine learning. Deep learning is a family within ML. Modern generative AI often uses deep learning to create text, images, or audio. Generative capability is distinct from the learning settings below.
+
+| Setting | Everyday example | Learning signal |
+|---|---|---|
+| Supervised | Estimate bike-rental counts | Examples with known answers |
+| Unsupervised | Group shoppers with similar habits | Structure in the input data |
+| Reinforcement | Learn a route to a charging dock | Rewards from actions and consequences |
 
 ## Machine learning map
 
@@ -106,3 +117,6 @@ Examples: https://scikit-learn.org/stable/auto_examples/index.html
 
 Scikit-learn makes it straightforward to build models and evaluate them for use. It is primarily focused on using numeric data and contains several ready-made datasets for use as learning tools. It also includes pre-built models for students to try.
 
+## Machine learning through everyday examples
+
+Open the [following notebook](./01_Machine_Learning_Visual_Demos.ipynb) to explore machine learning through everyday examples+.
